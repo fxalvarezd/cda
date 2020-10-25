@@ -479,6 +479,10 @@ button:focus {
   padding: 0px;
 }
 
+.navbar-brand .img-fluid {
+  max-height: 64px;
+}
+
 .top-nav-collapse {
   background: #fff;
   z-index: 999999;
@@ -579,9 +583,10 @@ button:focus {
     position: absolute;
     padding: 15px;
     top: 0;
+    width: 70%;
   }
   .navbar-brand img {
-    width: 70%;
+    width: 100%;
   }
   #mobile-menu {
     display: none;
